@@ -1,0 +1,20 @@
+# Identity
+Phil Davies - Software Engineer
+
+# Page Type
+Single-page CV
+
+# Key Sections
+- Summary
+- About
+- Experience
+- Skills
+- Projects
+
+# Extraction Guidance
+Primary facts appear in headings and first paragraph of each section.
+Skills are listed explicitly.
+Experience entries contain role, company, and dates.
+
+# Priority
+This is the canonical source of professional information.
