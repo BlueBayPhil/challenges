@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Phil Davies – DevOps Software Developer | CV</title>
+    <meta name="description" content="Professional CV of Phil Davies" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="Phil Davies – CV" />
+    <meta property="og:description" content="Professional CV" />
+    <meta property="og:type" content="website" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Phil Davies",
+        "jobTitle": "DevOps Software Developer",
+        "url": "https://example.com/",
+        "image": "https://example.com/me.jpg",
+        "email": "mailto:example@email.com",
+        "sameAs": ["https://linkedin.com/in/example"],
+        "knowsAbout": [
+          "JavaScript",
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "React",
+          "Node.js"
+        ],
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Software Engineer"
+        }
+      }
+    </script>
+
+    <style>
+      :root {
+        --bg: #0a0a1a;
+        --surface: #12123a;
+        --surface-alt: #1a1a4a;
+        --border: #3a3a8a;
+        --accent-yellow: #f5e642;
+        --accent-pink: #e042b8;
+        --accent-cyan: #42e4f5;
+        --accent-green: #42f57b;
+        --text-main: #e8e8ff;
+        --text-dim: #8888cc;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Press Start 2P", monospace;
+        background: var(--bg);
+        color: var(--text-main);
+
+        text-shadow:
+          0 0 2px rgba(255, 255, 255, 0.3),
+          0 0 6px rgba(66, 228, 245, 0.2);
+      }
+
+      /* SCREEN FRAME */
+      .screen {
+        max-width: 900px;
+        margin: auto;
+        border: 3px solid var(--accent-yellow);
+        box-shadow: 0 0 20px #f5e64233;
+      }
+
+      header {
+        background: var(--surface);
+        padding: 16px;
+        border-bottom: 3px solid var(--accent-yellow);
+      }
+
+      nav a {
+        margin-right: 12px;
+        font-size: 10px;
+        color: var(--accent-cyan);
+        text-decoration: none;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 16px;
+        padding: 16px;
+      }
+
+      article {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      aside {
+        background: var(--surface);
+        padding: 12px;
+        border: 2px solid var(--border);
+      }
+
+      section {
+        background: var(--surface);
+        border: 2px solid var(--border);
+        padding: 12px;
+      }
+
+      h1 {
+        font-size: 14px;
+      }
+      h2 {
+        font-size: 11px;
+        color: var(--accent-yellow);
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 9px;
+        margin-bottom: 6px;
+      }
+
+      p {
+        font-size: 8px;
+        line-height: 1.6;
+      }
+
+      figure {
+        margin: 10px 0;
+        text-align: center;
+      }
+
+      img {
+        max-width: 100px;
+        border: 2px solid var(--border);
+      }
+
+      figcaption {
+        font-size: 7px;
+        color: var(--text-dim);
+      }
+
+      /* GAME CARDS */
+      .game-list {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        gap: 10px;
+      }
+
+      .game-card {
+        padding: 10px;
+        border: 2px solid var(--border);
+        background: var(--surface-alt);
+      }
+
+      .featured {
+        border-color: var(--accent-pink);
+        box-shadow: 0 0 10px #e042b855;
+      }
+
+      /* BADGES */
+      .badge {
+        display: inline-block;
+        font-size: 6px;
+        padding: 3px 5px;
+        margin-right: 5px;
+        margin-top: 4px;
+        border: 1px solid;
+      }
+
+      .skill {
+        border-color: var(--accent-cyan);
+        color: var(--accent-cyan);
+      }
+      .meta {
+        border-color: var(--accent-green);
+        color: var(--accent-green);
+      }
+
+      footer {
+        text-align: center;
+        padding: 12px;
+        font-size: 7px;
+        border-top: 2px solid var(--border);
+      }
+
+      /* CRT SCANLINES */
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 999;
+
+        background: repeating-linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0) 0px,
+          rgba(0, 0, 0, 0) 2px,
+          rgba(0, 0, 0, 0.25) 3px,
+          rgba(0, 0, 0, 0.25) 4px
+        );
+      }
+
+      /* CRT GLOW / VIGNETTE */
+      body::after {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 998;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="screen">
+      <header>
+        <h1>Phil Davies</h1>
+        <p>DevOps Software Developer</p>
+
+        <nav>About Experience Skills Projects</nav>
+      </header>
+
+      <main>
+        <article>
+          <section id="about">
+            <h2>About</h2>
+
+            <figure>
+              <img
+                src="me.jpg"
+                alt="Phil Davies"
+                title="A photo of the author, Phil Davies"
+              />
+              <figcaption>Phil Davies – DevOps Software Developer</figcaption>
+            </figure>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </section>
+
+          <section id="experience">
+            <h2>Experience</h2>
+
+            <ul class="game-list">
+              <li class="game-card featured">
+                <h3>Senior Developer – Example Company</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <span class="badge meta">2022–Present</span>
+                <span class="badge skill">React</span>
+                <span class="badge skill">TypeScript</span>
+              </li>
+
+              <li class="game-card">
+                <h3>Developer – Another Company</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <span class="badge meta">2019–2022</span>
+                <span class="badge skill">Node</span>
+                <span class="badge skill">CSS</span>
+              </li>
+            </ul>
+          </section>
+
+          <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>HTML & CSS</li>
+              <li>React</li>
+            </ul>
+          </section>
+
+          <section id="projects">
+            <h2>Projects</h2>
+
+            <ul class="game-list">
+              <li class="game-card">
+                <h3>Project One</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <span class="badge skill">API</span>
+                <span class="badge skill">Cloudflare</span>
+              </li>
+
+              <li class="game-card">
+                <h3>Project Two</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <span class="badge skill">Frontend</span>
+                <span class="badge skill">UX</span>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <aside>
+          <h2>Contact</h2>
+          <p>Email: example@email.com</p>
+          <p>LinkedIn: linkedin.com/in/example</p>
+        </aside>
+      </main>
+
+      <footer>© Phil Davies</footer>
+    </div>
+  </body>
+</html>
